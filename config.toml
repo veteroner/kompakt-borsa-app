@@ -1,0 +1,25 @@
+[global]
+# Uygulama ayarları
+dataFrameSerialization = "legacy"
+
+[server]
+# Server ayarları
+headless = true
+runOnSave = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Tarayıcı ayarları  
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+serverPort = 8501
+
+[theme]
+# Tema ayarları
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif" 
